@@ -1,0 +1,299 @@
+#topbar {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  color:#8071D0;
+  font-weight: 900;
+  font-size: 150%;
+  height:150px;
+  
+}
+#logo
+{
+  width:150px;
+}
+#logo-icon
+{
+  width:10;
+  height:100;
+  margin-left:200px;
+  margin-right: 100px;
+}
+.menu-item {
+	margin: 0 8px;
+  color:black;
+  font-size:20px;
+}
+.menu-item:hover
+{
+  text-decoration: underline blue;
+  
+}
+#botton-display
+{
+  background-color:pink;
+  color:blue;
+  font-weight:bold;
+  padding: 10px 32px;
+  align:center;
+  border:none;
+  border-radius: 25px;
+  height:50px;
+  margin:200px;
+}
+#container {
+	height: 100%;
+	background-color: white;
+	padding:5px;
+  margin-left: 300px;
+  margin-top: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#container > div {
+	background-color: white;
+	
+	font-size: 24px;
+	margin: 4px;
+}
+#new-ac
+{
+  background-color:#5243C0;
+  color:white;
+  font-weight:bold;
+  padding: 10px 32px;
+  align:center;
+  border:none;
+  border-radius: 25px;
+  height:50px;
+  margin:20px;
+}
+
+#innercontainer {
+	height: 300px;
+	background-color: white;
+	margin:20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: stretch;
+}
+#innercontainer > div {
+	background-color: green;
+	
+	font-size: 20px;
+	margin: 4px;
+}
+#heading{
+  margin:20px;
+  
+}
+#para
+{
+  margin:20px;
+}
+.bottom-bar
+{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+
+.checkmark {
+  position: absolute;
+  Justify-Content:center;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color:grey;
+  border-radius: 50%;
+}
+.bottom-bar input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.bottom-bar:hover input ~ .checkmark
+{
+  background-color:blue;
+}
+
+.img
+{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#step-section {
+	display: flex;
+	height: 70px;
+  
+}
+
+#step-section > article {
+	width: 40%;
+}
+
+#step-1 {
+  
+	background-color: white;
+  padding:15px;
+  text-align: center;
+  display: flex;
+}
+
+#step-2 {
+  display: flex;
+	background-color: white;
+  padding:15px ;
+  text-align: center;
+  margin-left: 30px;
+}
+
+#step-3 {
+  display: flex;
+	background-color: white;
+  padding:20px 15px;
+  text-align: center;
+}
+
+#step-4 {
+  
+	background-color: white;
+  padding:15px;
+  text-align: center;
+  
+}
+#b1
+{
+  background-color:#FED7DA;
+  border-radius:40%;
+  display: inline-block;
+  padding: 5px 10px ;
+      
+}
+#b2
+{
+  background-color:#FD6534;
+  border-radius:40%;
+  display: inline-block;
+  padding: 5px 10px ;
+      
+}
+#b3
+{
+  background-color:#9ED095;
+  border-radius:40%;
+  display: inline-block;
+  padding: 5px 10px ;
+      
+}
+#b4
+{
+  background-color:#FFE4A0;
+  border-radius:40%;
+  display: inline-block;
+  padding: 5px 10px ;
+      
+}
+#step-5 {
+  display: flex;
+	background-color: white;
+  padding:15px;
+  text-align: center;
+}
+
+#step-6 {
+  display: flex;
+	background-color: white;
+  padding:15px;
+  text-align: center;
+}
+
+#step-7 {
+  display: flex;
+	background-color: white;
+  padding:20px 15px;
+  text-align: center;
+}
+
+#step-8 {
+	background-color: white;
+  padding:15px;
+  text-align: center;
+  
+}
+#step-9 {
+  display: flex;
+	background-color: white;
+  padding:15px;
+  text-align: center;
+}
+
+#step-10
+{
+  display: flex;
+	background-color: white;
+  padding:15px;
+  text-align: center;
+}
+
+#step-11 {
+  display: flex;
+	background-color: white;
+  padding:20px 15px;
+  text-align: center;
+}
+
+#step-12 {
+	background-color: white;
+  padding:15px;
+  text-align: center;
+  
+}
+#step-13 {
+  display: flex;
+	background-color: white;
+  padding:15px;
+  text-align: center;
+}
+
+#step-14 {
+  display: flex;
+	background-color: white;
+  padding:15px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+#step-15 {
+  display: flex;
+	background-color: white;
+  padding:20px 15px;
+  text-align: center;
+}
+
+#step-16 {
+	background-color: white;
+  padding:15px;
+  text-align: center;
+  
+}
+#sec
+{
+  justify-content:right;
+  margin-right: 300px;
+  margin-top: 25px;
+ 
+}
